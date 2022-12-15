@@ -1,5 +1,5 @@
 title = "Enrico Ruggieri"
-baseURL = "https://www.enricoruggieri.com/"
+baseURL = "http://www.enricoruggieri.com/"
 languageCode = "en-us"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 resourceDir = "resources"
