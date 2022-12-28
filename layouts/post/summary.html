@@ -1,17 +1,22 @@
-  <div class="mb3 pa4 {{ $.Param "text_color" | default "mid-gray" }} overflow-hidden">
+<div class="mb3 pa4 {{ $.Param " text_color" | default "mid-gray" }} overflow-hidden">
     {{ if .Params.year }}
-      <div class="f6">
-          {{ .Params.year}}
-{{/*        {{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}*/}}
-      </div>
+        <div class="f6">
+            {{ .Params.year}}
+            {{/* {{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}*/}}
+        </div>
     {{ end }}
     <h1 class="f3 near-black">
-      <a href="{{ .RelPermalink }}" class="link black dim">
-        {{ .Title }}
-      </a>
+        <a href="{{ .RelPermalink }}" class="link black dim">
+            {{ .Title }}
+        </a>
     </h1>
+    {{$featureImage := .Params.featured_image}}
+    {{if eq $featureImage ""}}
+        {{$featureImage = "/images/concert_placeholder.png"}}
+    {{end}}
+    <h3>{{.Params.choir}}</h3>
+    <br>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-        <img src="{{ .Params.featured_image}}" alt="poster">
-
+        <img src="{{ $featureImage}}" alt="poster">
     </div>
-  </div>
+</div>

@@ -16,8 +16,10 @@
             {{ .Title }}
             </a>
         </h1>
+    <h3>{{.Params.choir}}</h3>
+    <br>
+    {{ range .Params.details}}
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          {{ range .Params.details}}
           <p><strong>{{ .date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
             - {{ .venue}}</strong><br>
             {{ .address }}<br>

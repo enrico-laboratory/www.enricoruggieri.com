@@ -1,4 +1,6 @@
 .hugo_build.lock
 /out
 /.idea
+postGenerator
+go.sum
 enricoruggieriWebsiteDBBackup.sql

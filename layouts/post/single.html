@@ -6,15 +6,24 @@
                 <h1 class="f1">
                     {{ .Title }}
                 </h1>
+                <h2>{{.Params.choir}}</h2>
             </header>
             <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+                {{ if .Params.featured_image}}
                 <img src="{{ .Params.featured_image}}" alt="poster">
-                {{ range .Params.details}}
-                    <p><strong>{{ .date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
-                        - {{ .venue}}</strong> {{ .address }}<br>
-                    <i>{{ .price}}</i><br>
-                    <a href="{{ .ticketLink}}">{{.ticketText}}</a></p>
                 {{end}}
+                <h2>Dates and Venues</h2>
+                <p>
+                    {{ range .Params.details}}
+                        <strong>{{ .date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
+                            - {{ .venue}}</strong> {{ .address }}<br>
+                        <i>{{ .price}}</i>
+                        {{if .ticketLink}}
+                            <br>
+                            <a href="{{ .ticketLink}}">{{.ticketText}}</a>
+                        {{end}}
+                    {{end}}
+                </p>
                 <h2>Description</h2>
                 {{ .Content }}
             </div>
