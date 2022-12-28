@@ -7,7 +7,7 @@ menu:
     weight: 1
 ---
 
-{{< figure src="/images/Enrico_Ruggieri3_Colour_WEB.jpeg" title="Enrico Ruggieri" >}}
+{{< figure src="/images/tdf-20171118_024.jpeg" title="Enrico Ruggieri" >}}
 
 Music has always been a big part of my life since I was 6 years old.
 
