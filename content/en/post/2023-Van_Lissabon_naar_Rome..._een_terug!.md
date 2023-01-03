@@ -4,7 +4,7 @@ date: 2023-04-22T15:00:00+02:00
 description: ""
 choir: "Haags Renaissance Kamerkoor"
 featured_image: ""
-publishDate: 2022-12-28T11:04:02+01:00
+publishDate: 2023-01-03T11:29:12+01:00
 tags: [
 ]
 title: "Van Lissabon naar Rome... een terug!"
