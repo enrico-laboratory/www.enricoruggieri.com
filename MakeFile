@@ -1,0 +1,4 @@
+include .env
+
+postGenerator:
+	./postGenerator/postGenerator
