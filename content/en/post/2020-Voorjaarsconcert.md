@@ -4,7 +4,7 @@ date: 2020-03-22T15:00:00+01:00
 description: "muziek van Andreo, Carrillo, Donati, Elgar Gjeilo, Joel, Lasso, The Manhattan Transfer, Mendelssohn, Moolenburgh , Morley, Stanford"
 choir: "Quod Libet"
 featured_image: "/images/2020-Voorjaarsconcert.jpg"
-publishDate: 2023-01-03T11:29:13+01:00
+publishDate: 2023-06-14T12:51:04+02:00
 tags: [
 ]
 title: "Voorjaarsconcert"

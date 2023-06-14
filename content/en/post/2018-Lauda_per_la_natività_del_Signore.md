@@ -4,7 +4,7 @@ date: 2018-01-01T00:00:00+00:00
 description: "Oratorio van Ottorino Respighi m.m.v blazerensemble en solisten"
 choir: "Quod Libet"
 featured_image: "/images/2018-Lauda_per_la_natività_del_Signore.jpg"
-publishDate: 2023-01-03T11:29:10+01:00
+publishDate: 2023-06-14T12:51:01+02:00
 tags: [
 ]
 title: "Lauda per la natività del Signore"
