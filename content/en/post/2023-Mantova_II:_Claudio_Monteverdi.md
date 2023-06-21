@@ -4,7 +4,7 @@ date: 2023-06-10T15:00:00+02:00
 description: "Monteverdi music of his Mantova years"
 choir: "Madrigale Den Haag"
 featured_image: "/images/2023-Mantova_II:_Claudio_Monteverdi.jpg"
-publishDate: 2023-06-14T12:51:04+02:00
+publishDate: 2023-06-21T10:38:13+02:00
 tags: [
 ]
 title: "Mantova II: Claudio Monteverdi"

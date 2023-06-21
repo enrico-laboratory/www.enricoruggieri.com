@@ -4,7 +4,7 @@ date: 2018-01-01T00:00:00+00:00
 description: ""
 choir: "Haags Renaissance Kamerkoor"
 featured_image: "/images/2018-Muziek_rondom_Sweelinck.jpg"
-publishDate: 2023-06-14T12:50:45+02:00
+publishDate: 2023-06-21T10:37:57+02:00
 tags: [
 ]
 title: "Muziek rondom Sweelinck"

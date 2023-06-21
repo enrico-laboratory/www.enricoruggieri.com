@@ -4,7 +4,7 @@ date: 2019-01-01T00:00:00+00:00
 description: ""
 choir: "Quod Libet"
 featured_image: "/images/2019-Tutto_lo_dì,_io_canto.jpg"
-publishDate: 2023-06-14T12:51:03+02:00
+publishDate: 2023-06-21T10:38:12+02:00
 tags: [
 ]
 title: "Tutto lo dì, io canto"

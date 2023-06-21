@@ -4,7 +4,7 @@ date: 2019-01-01T00:00:00+00:00
 description: ""
 choir: "Quod Libet"
 featured_image: "/images/2019-The_passing_of_the_year.jpg"
-publishDate: 2023-06-14T12:51:02+02:00
+publishDate: 2023-06-21T10:38:11+02:00
 tags: [
 ]
 title: "The passing of the year"

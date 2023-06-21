@@ -4,7 +4,7 @@ date: 2022-06-24T19:00:00+02:00
 description: ""
 choir: "Madrigale Den Haag"
 featured_image: "/images/2022-Mantova_I:_Giaches_de_Wert_2022.jpg"
-publishDate: 2023-06-14T12:51:05+02:00
+publishDate: 2023-06-21T10:38:14+02:00
 tags: [
 ]
 title: "Mantova I: Giaches de Wert 2022"
