@@ -15,7 +15,7 @@
                 <h2>Dates and Venues</h2>
                 <p>
                     {{ range .Params.details}}
-                        <strong>{{ .date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
+                        <strong>{{ .date | time.Format (default "2 January 2006, 15:04" .Site.Params.date_format) }}
                             - {{ .venue}}</strong> {{ .address }}<br>
                         <i>{{ .price}}</i>
                         {{if .ticketLink}}
